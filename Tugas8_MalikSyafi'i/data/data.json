@@ -1,0 +1,66 @@
+[
+    {
+        "maskapai": "Air asia",
+        "bandaraAsal": "Soekarno-Hatta (CGK)",
+        "bandaraTujuan": "Husein Sastranegara (BDO)",
+        "hargaTiket": "100000",
+        "pajakTiket": 120000,
+        "totalHargaTiket": 220000
+    },
+    {
+        "maskapai": "Adam Air",
+        "bandaraAsal": "Soekarno-Hatta (CGK)",
+        "bandaraTujuan": "Sultan Iskandarmuda (BTJ)",
+        "hargaTiket": "2000000",
+        "pajakTiket": 120000,
+        "totalHargaTiket": 2120000
+    },
+    {
+        "maskapai": "Batik",
+        "bandaraAsal": "Husein Sastranegara (BDO)",
+        "bandaraTujuan": "Sultan Iskandarmuda (BTJ)",
+        "hargaTiket": "100000",
+        "pajakTiket": 100000,
+        "totalHargaTiket": 200000
+    },
+    {
+        "maskapai": "Batik",
+        "bandaraAsal": "Soekarno-Hatta (CGK)",
+        "bandaraTujuan": "Hasanuddin (UPG)",
+        "hargaTiket": "890000",
+        "pajakTiket": 120000,
+        "totalHargaTiket": 1010000
+    },
+    {
+        "maskapai": "Citilink",
+        "bandaraAsal": "Soekarno-Hatta (CGK)",
+        "bandaraTujuan": "Sultan Iskandarmuda (BTJ)",
+        "hargaTiket": "89000",
+        "pajakTiket": 120000,
+        "totalHargaTiket": 209000
+    },
+    {
+        "maskapai": "Garuda Indonesia",
+        "bandaraAsal": "Soekarno-Hatta (CGK)",
+        "bandaraTujuan": "Ngurah Rai (DPS)",
+        "hargaTiket": 1500000,
+        "pajakTiket": 130000,
+        "totalHargaTiket": 1630000
+    },
+    {
+        "maskapai": "Lion Air",
+        "bandaraAsal": "Husein Sastranegara (BDO)",
+        "bandaraTujuan": "Ngurah Rai (DPS)",
+        "hargaTiket": "800000",
+        "pajakTiket": 110000,
+        "totalHargaTiket": 910000
+    },
+    {
+        "maskapai": "",
+        "bandaraAsal": "",
+        "bandaraTujuan": "",
+        "hargaTiket": "",
+        "pajakTiket": null,
+        "totalHargaTiket": null
+    }
+]

@@ -1,0 +1,106 @@
+/* berikut adalah style css untuk home.php*/
+body,
+html {
+  height: 100%; /*set heigt body dan html 100%*/
+}
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../images/ilustrasi.jpg");
+
+  /* Set tinggi 100% */
+  height: 100%;
+
+  /* Posisi gambar dibuat tengah dan relative */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+/* menempatkan text ditengah gambar */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+/* <-- batas style pada home.php -->*/
+
+/* berikut adalah style css untuk login.php*/
+/* Gaya untuk elemen dengan kelas .bodys */
+.bodys {
+  /* Mengatur tipe font menjadi Arial atau font sans-serif alternatif */
+  font-family: Arial, sans-serif;
+
+  /* Mengatur warna latar belakang elemen */
+  background-color: #424242;
+
+  /* Mengatur warna teks (font) pada elemen */
+  color: #fff;
+
+  /* Menggunakan flexbox untuk mengatur tata letak elemen */
+  display: flex;
+
+  /* Mengatur pemosisian item di sepanjang sumbu vertikal */
+  align-items: center;
+
+  /* Mengatur pemosisian item di sepanjang sumbu horizontal */
+  justify-content: center;
+
+  /* Mengatur tinggi elemen menjadi 100% dari viewport (tinggi jendela browser) */
+  height: 100vh;
+
+  /* Mengatur margin luar elemen menjadi 0 */
+  margin: 0;
+}
+
+/* Gaya untuk elemen dengan kelas .login-container */
+.login-container {
+  /* Mengatur pemosisian teks menjadi rata tengah */
+  text-align: center;
+
+  /* Memberikan padding (jeda) sebesar 20 piksel di sekitar konten */
+  padding: 20px;
+
+  /* Mengatur warna latar belakang elemen dengan opasitas 0.7 */
+  background-color: rgba(18, 18, 18, 0.7);
+
+  /* Mengatur radius sudut elemen menjadi 35 piksel, menciptakan efek melengkung pada sudut */
+  border-radius: 35px;
+
+  /* Memberikan bayangan (shadow) pada elemen dengan intensitas dan posisi tertentu */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Gaya untuk elemen dengan kelas .login-container h1*/
+.login-container h1 {
+  /* Mengatur margin atas elemen menjadi 0 */
+  margin-top: 0;
+}
+
+/* Gaya untuk elemen dengan kelas .login-input */
+.login-input {
+  /* Mengatur lebar elemen menjadi 100% dari parent-nya */
+  width: 100%;
+
+  /* Memberikan jeda (padding) sebesar 5 piksel di dalam elemen */
+  padding: 5px;
+
+  /* Mengatur jarak antara elemen dengan elemen lain di bawahnya */
+  margin-bottom: 10px;
+
+  /* Menghilangkan border pada elemen */
+  border: none;
+
+  /* Mengatur warna latar belakang elemen dengan opasitas 0.1 */
+  background-color: rgba(238, 238, 238, 0.1);
+
+  /* Mengatur radius sudut elemen menjadi 50 piksel, menciptakan efek melengkung pada sudut */
+  border-radius: 50px;
+
+  /* Mengatur warna teks (font) menjadi putih */
+  color: #fff;
+}
